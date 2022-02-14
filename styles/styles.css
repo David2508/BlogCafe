@@ -178,3 +178,22 @@ font-weight: normal;
   padding-bottom: 3rem;
   margin-top: 4rem;
 }
+/* Sobre nosotros */
+/* Flexbox */
+/* @media (min-width: 768px){
+  .sobre-nosotros{
+display: flex;
+justify-content: space-between;
+  }
+  .sobre-nosotros__imagen, .sobre-nosotros__texto{
+    flex-basis: calc(50% - 1rem);/*acceso a la version corta de flexbox*/
+    /* }
+}   */
+/* Grid */
+@media (min-width: 768px){
+  .sobre-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
